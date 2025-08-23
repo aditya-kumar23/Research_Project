@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>slam_centralized</name>
+  <version>0.1.0</version>
+  <description>Centralized SLAM architecture node using GTSAM</description>
+
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Python build -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>slam_interface</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+
+  <!-- External library bindings -->
+  <exec_depend>gtsam</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
