@@ -1,21 +1,37 @@
-from launch import LaunchDescription
-from launch.actions import ExecuteProcess
-from launch.substitutions import LaunchConfiguration
-from launch_ros.substitutions import FindPackageShare
-import os
+"""Launch file to play back a ROS 2 bag file.
 
-def generate_launch_description():
-    bag_path = LaunchConfiguration('bag_path', default=os.path.expanduser('~/datasets/S3E/S3E_Playground_1/S3E_Playground_1.db3'))
+This launch script declares a `bag_path` argument.  If provided, it
+invokes `ros2 bag play` on the given file and enables the simulated clock.
+The playback rate can be adjusted via additional arguments (e.g. `--rate`).
+"""
+
+import os
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, ExecuteProcess
+from launch.substitutions import LaunchConfiguration
+
+
+def generate_launch_description() -> LaunchDescription:
+    bag_path_arg = DeclareLaunchArgument(
+        'bag_path',
+        default_value=os.path.expanduser(
+            '~/datasets/S3E/S3E_Playground_1/S3E_Playground_1.db3'
+        ),
+        description='Path to a SQLite3 bag file to play back'
+    )
+
+    # Use LaunchConfiguration to substitute the bag path at runtime
+    bag_play = ExecuteProcess(
+        cmd=[
+            'ros2', 'bag', 'play', LaunchConfiguration('bag_path'),
+            '--clock', '--rate', '0.8','--read-ahead-queue-size', '10000',
+        ],
+        output='screen'
+    )
 
     return LaunchDescription([
-        ExecuteProcess(
-            cmd=[
-                'ros2', 'bag', 'play', bag_path,
-                '--clock',                    # Publish /clock for simulated time
-                '--rate', '1.0',              # Optional: play slower/faster
-                '--remap', '/clock:=/clock'   # Remap clock if needed
-            ],
-            output='screen'
-        )
+        bag_path_arg,
+        bag_play,
     ])
+
 
