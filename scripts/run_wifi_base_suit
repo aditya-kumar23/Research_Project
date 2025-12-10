@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Batch runner for Wi-Fi baseline KPI orchestrations using ROS 2 factor streaming.
+# Mirrors the current orchestrator defaults via the example JSON config while
+# overriding dataset/output per case and enabling per-agent factor ingest.
+
+REPO_ROOT="/home/gabruuu/cosmo_slam"
+ORCHESTRATOR="$REPO_ROOT/tools/orchestrate_kpi.py"
+CONFIG="$REPO_ROOT/tools/orchestrate_kpi.example.json"
+
+run_case() {
+  local dataset_path="$1"
+  local output_dir="$2"
+
+  echo "=== Running Wi-Fi baseline ==="
+  echo "Dataset : $dataset_path"
+  echo "Output  : $output_dir"
+  python3 "$ORCHESTRATOR" \
+    --config "$CONFIG" \
+    --ddf-agent-factor-ros2 \
+    --jrl "$dataset_path" \
+    --out-base "$output_dir"
+}
+
+run_case "$REPO_ROOT/datasets/COSMO/wifi/ntu_r3_00_d01_n04_n08_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_r3_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/ntu_r4_00_d01_n04_n08_n13_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_r4_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/ntu_r5_00_d01_d02_n04_n08_n13_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_r5_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/tuhh_r3_00_day_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_day_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/tuhh_r3_01_night_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_night_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/kth_r3_01_n01_n04_n05_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_r3_kth_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/kth_r4_00_d06_d10_n04_n05_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_r4_kth_base"
+run_case "$REPO_ROOT/datasets/COSMO/wifi/main_campus_wifi.jrl" "$REPO_ROOT/wifi_base/wifi_maincampus_base"
+
+echo "All Wi-Fi baseline runs completed."

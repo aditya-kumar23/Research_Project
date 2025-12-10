@@ -1,0 +1,85 @@
+{
+  "loop_closure_correction": {
+    "count": 688,
+    "min": 0.0512345879978966,
+    "max": 8.557843604008667,
+    "mean": 1.996356104269284,
+    "median": 1.6902409784961492,
+    "p90": 4.278578414494405,
+    "p95": 5.096215469785966,
+    "p99": 7.32986973492894,
+    "stdev": 1.5761526194755655
+  },
+  "interface_correction": {
+    "count": 5,
+    "min": 1.0871749930083752,
+    "max": 13.542256593005732,
+    "mean": 4.453408257407136,
+    "median": 1.6826640159997623,
+    "p90": 10.008872283005623,
+    "p95": 11.775564438005674,
+    "p99": 13.18891816200572,
+    "stdev": 4.732175890602348
+  },
+  "loop_closure_correction_stabilised": {
+    "count": 0
+  },
+  "loop_closure_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "interface_correction_stabilised": {
+    "count": 0
+  },
+  "interface_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "time_to_global_convergence_s": 150.65151691436768,
+  "time_to_global_convergence_method": "last_map_broadcast",
+  "timeline_start_ts": 1762961914.26162,
+  "timeline_end_ts": 1762962064.913137,
+  "delivery_topics": {
+    "/cosmo/factor_batch/d": {
+      "attempts": 1709.0,
+      "drops": 93.0,
+      "delivered": 1616.0,
+      "delivery_rate": 0.9455822118197776
+    },
+    "/cosmo/factor_batch/c": {
+      "attempts": 1258.0,
+      "drops": 25.0,
+      "delivered": 1233.0,
+      "delivery_rate": 0.980127186009539
+    },
+    "/cosmo/factor_batch/b": {
+      "attempts": 355.0,
+      "drops": 10.0,
+      "delivered": 345.0,
+      "delivery_rate": 0.971830985915493
+    },
+    "/cosmo/factor_batch/e": {
+      "attempts": 875.0,
+      "drops": 0.0,
+      "delivered": 875.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/factor_batch/a": {
+      "attempts": 2429.0,
+      "drops": 192.0,
+      "delivered": 2237.0,
+      "delivery_rate": 0.9209551255660766
+    }
+  },
+  "delivery_rate": {
+    "count": 5,
+    "min": 0.9209551255660766,
+    "max": 1.0,
+    "mean": 0.9636991018621772,
+    "median": 0.971830985915493,
+    "p90": 0.9920508744038156,
+    "p95": 0.9960254372019077,
+    "p99": 0.9992050874403815,
+    "stdev": 0.02760084747623508
+  }
+}

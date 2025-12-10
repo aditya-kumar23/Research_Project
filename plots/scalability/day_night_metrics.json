@@ -1,0 +1,98 @@
+{
+  "WiFi_Day_Central": {
+    "ATE": 1.4560072024171038,
+    "RPE10": 0.9709364858016767,
+    "LatencyMedIB": 7.951635229488602,
+    "TimeToGlobal": 166.0768437385559,
+    "UplinkMiB": 2.1381235122680664,
+    "DownlinkMiB": 0.302703857421875,
+    "UplinkMbps": 0.10799747632629209,
+    "DownlinkMbps": 0.0152896932699263,
+    "CPUmean": 3.3284457478005867,
+    "RSSmeanMiB": 115.64425632331378
+  },
+  "WiFi_Day_DDF": {
+    "ATE": 47.006987707388184,
+    "RPE10": 63.842726953813575,
+    "LatencyMedIB": 2.1865464448928833,
+    "TimeToGlobal": 187.50005292892456,
+    "UplinkMiB": 0.4728374481201172,
+    "DownlinkMiB": 0.0,
+    "UplinkMbps": 0.021154383361713276,
+    "DownlinkMbps": 0.0,
+    "CPUmean": 8.944094488188977,
+    "RSSmeanMiB": 108.73328822178478
+  },
+  "WiFi_Night_Central": {
+    "ATE": 2.440332139628244,
+    "RPE10": 1.4166613497405862,
+    "LatencyMedIB": 7.427690190990688,
+    "TimeToGlobal": 143.03937983512878,
+    "UplinkMiB": 1.9831581115722656,
+    "DownlinkMiB": 0.2652130126953125,
+    "UplinkMbps": 0.11630318880839004,
+    "DownlinkMbps": 0.015553534995497956,
+    "CPUmean": 3.7268041237113403,
+    "RSSmeanMiB": 114.01822916666667
+  },
+  "WiFi_Night_DDF": {
+    "ATE": 2.1145692609776034,
+    "RPE10": 1.2846552996765177,
+    "LatencyMedIB": 0.046085476875305176,
+    "TimeToGlobal": 161.22198176383972,
+    "UplinkMiB": 0.7193031311035156,
+    "DownlinkMiB": 0.0,
+    "UplinkMbps": 0.037426360437862745,
+    "DownlinkMbps": 0.0,
+    "CPUmean": 9.094801223241591,
+    "RSSmeanMiB": 106.04012566896024
+  },
+  "ProRadio_Day_Central": {
+    "ATE": 1.9409135379233047,
+    "RPE10": 1.6401471149249762,
+    "LatencyMedIB": 6.768393600999843,
+    "TimeToGlobal": 169.4294557571411,
+    "UplinkMiB": 2.5555286407470703,
+    "DownlinkMiB": 0.372772216796875,
+    "UplinkMbps": 0.12652657062611417,
+    "DownlinkMbps": 0.018456294898817803,
+    "CPUmean": 3.7270348837209304,
+    "RSSmeanMiB": 119.57599018895348
+  },
+  "ProRadio_Day_DDF": {
+    "ATE": 6.183238173677329,
+    "RPE10": 7.215261056911216,
+    "LatencyMedIB": 0.03423774242401123,
+    "TimeToGlobal": 181.15180826187134,
+    "UplinkMiB": 0.33748912811279297,
+    "DownlinkMiB": 0.0,
+    "UplinkMbps": 0.015628129948929027,
+    "DownlinkMbps": 0.0,
+    "CPUmean": 9.460655737704919,
+    "RSSmeanMiB": 110.9176805840164
+  },
+  "ProRadio_Night_Central": {
+    "ATE": 2.465927651394884,
+    "RPE10": 1.907042689670795,
+    "LatencyMedIB": 5.76192860250012,
+    "TimeToGlobal": 144.94835996627808,
+    "UplinkMiB": 2.5098915100097656,
+    "DownlinkMiB": 0.37036895751953125,
+    "UplinkMbps": 0.14525515159259672,
+    "DownlinkMbps": 0.021434392225774812,
+    "CPUmean": 4.224406779661017,
+    "RSSmeanMiB": 118.70154925847457
+  },
+  "ProRadio_Night_DDF": {
+    "ATE": 2.3255952884638416,
+    "RPE10": 2.51455495725706,
+    "LatencyMedIB": 0.037535667419433594,
+    "TimeToGlobal": 169.29437065124512,
+    "UplinkMiB": 0.5277566909790039,
+    "DownlinkMiB": 0.0,
+    "UplinkMbps": 0.026150568285109366,
+    "DownlinkMbps": 0.0,
+    "CPUmean": 9.695626822157434,
+    "RSSmeanMiB": 110.77006650874635
+  }
+}

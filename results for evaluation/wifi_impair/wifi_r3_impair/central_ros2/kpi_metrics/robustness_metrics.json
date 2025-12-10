@@ -1,0 +1,97 @@
+{
+  "spec": {
+    "seed": 1234,
+    "warmup_s": 15.0,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "blackouts": [
+      {
+        "rid": "b",
+        "start_s": 100.0,
+        "end_s": 180.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "c",
+        "start_s": 225.0,
+        "end_s": 355.0,
+        "mode": "either"
+      },
+      {
+        "rid": "a",
+        "start_s": 250.0,
+        "end_s": 270.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "d",
+        "start_s": 400.0,
+        "end_s": 490.0,
+        "mode": "sender"
+      }
+    ],
+    "bw_caps_mbps": {
+      "default": 0.3
+    }
+  },
+  "stats": {
+    "seed": 1234,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "bw_caps_mbps": {
+      "default": 0.3
+    },
+    "drops": {
+      "random": 0,
+      "burst": 418,
+      "blackout": 4
+    },
+    "throttle_seconds": {
+      "a": 1.044920874671504,
+      "c": 2.5680649671890405,
+      "b": 0.09386402764433995
+    },
+    "staleness_wall_s": {
+      "a": {
+        "count": 1899,
+        "sum": 1.1028253565593216,
+        "max": 0.03402948841466879,
+        "mean": 0.0005807400508474574
+      },
+      "c": {
+        "count": 1705,
+        "sum": 2.620004216227737,
+        "max": 0.03495121472676595,
+        "mean": 0.0015366593643564438
+      },
+      "b": {
+        "count": 932,
+        "sum": 0.12348109879607334,
+        "max": 0.034811003468831384,
+        "mean": 0.00013249044935201003
+      }
+    },
+    "topics": {
+      "/cosmo/factor_batch/a": {
+        "attempts": 2207,
+        "drops": 308,
+        "delivered": 1899,
+        "delivery_rate": 0.860444041685546
+      },
+      "/cosmo/factor_batch/c": {
+        "attempts": 1815,
+        "drops": 110,
+        "delivered": 1705,
+        "delivery_rate": 0.9393939393939394
+      },
+      "/cosmo/factor_batch/b": {
+        "attempts": 936,
+        "drops": 4,
+        "delivered": 932,
+        "delivery_rate": 0.9957264957264957
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "uplink": {
+    "/cosmo/factor_batch/a": {
+      "messages": 2278,
+      "bytes": 2982621
+    },
+    "/cosmo/factor_batch/c": {
+      "messages": 1798,
+      "bytes": 2354196
+    },
+    "/cosmo/factor_batch/b": {
+      "messages": 885,
+      "bytes": 1157336
+    },
+    "/cosmo/factor_batch/d": {
+      "messages": 865,
+      "bytes": 1132199
+    }
+  },
+  "downlink": {
+    "map_broadcast": {
+      "messages": 30,
+      "bytes": 3284568
+    }
+  }
+}

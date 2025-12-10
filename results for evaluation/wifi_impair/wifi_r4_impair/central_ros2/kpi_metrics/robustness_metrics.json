@@ -1,0 +1,110 @@
+{
+  "spec": {
+    "seed": 1234,
+    "warmup_s": 15.0,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "blackouts": [
+      {
+        "rid": "b",
+        "start_s": 100.0,
+        "end_s": 180.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "c",
+        "start_s": 225.0,
+        "end_s": 355.0,
+        "mode": "either"
+      },
+      {
+        "rid": "a",
+        "start_s": 250.0,
+        "end_s": 270.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "d",
+        "start_s": 400.0,
+        "end_s": 460.0,
+        "mode": "sender"
+      }
+    ],
+    "bw_caps_mbps": {
+      "default": 0.4
+    }
+  },
+  "stats": {
+    "seed": 1234,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "bw_caps_mbps": {
+      "default": 0.4
+    },
+    "drops": {
+      "random": 0,
+      "burst": 581,
+      "blackout": 15
+    },
+    "throttle_seconds": {
+      "a": 0.26656078506802205,
+      "b": 0.01182,
+      "c": 0.374049273839686,
+      "d": 0.16269176610714756
+    },
+    "staleness_wall_s": {
+      "a": {
+        "count": 1995,
+        "sum": 0.32526873756741176,
+        "max": 0.025309692582553254,
+        "mean": 0.00016304197371800087
+      },
+      "b": {
+        "count": 913,
+        "sum": 0.03972307998657226,
+        "max": 0.01185814697265625,
+        "mean": 4.350830228540226e-05
+      },
+      "c": {
+        "count": 1589,
+        "sum": 0.4196346677453257,
+        "max": 0.026344080276489257,
+        "mean": 0.0002640872673035404
+      },
+      "d": {
+        "count": 862,
+        "sum": 0.18740647443539463,
+        "max": 0.02634598762512207,
+        "mean": 0.00021740890305730235
+      }
+    },
+    "topics": {
+      "/cosmo/factor_batch/a": {
+        "attempts": 2293,
+        "drops": 298,
+        "delivered": 1995,
+        "delivery_rate": 0.8700392498909725
+      },
+      "/cosmo/factor_batch/b": {
+        "attempts": 928,
+        "drops": 15,
+        "delivered": 913,
+        "delivery_rate": 0.9838362068965517
+      },
+      "/cosmo/factor_batch/c": {
+        "attempts": 1872,
+        "drops": 283,
+        "delivered": 1589,
+        "delivery_rate": 0.8488247863247863
+      },
+      "/cosmo/factor_batch/d": {
+        "attempts": 862,
+        "drops": 0,
+        "delivered": 862,
+        "delivery_rate": 1.0
+      }
+    }
+  }
+}

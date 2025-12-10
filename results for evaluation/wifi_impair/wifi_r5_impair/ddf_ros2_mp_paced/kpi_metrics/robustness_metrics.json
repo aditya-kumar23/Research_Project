@@ -1,0 +1,89 @@
+{
+  "spec": {
+    "seed": 1234,
+    "warmup_s": 15.0,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "blackouts": [
+      {
+        "rid": "b",
+        "start_s": 100.0,
+        "end_s": 180.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "c",
+        "start_s": 225.0,
+        "end_s": 355.0,
+        "mode": "either"
+      },
+      {
+        "rid": "a",
+        "start_s": 250.0,
+        "end_s": 270.0,
+        "mode": "sender"
+      },
+      {
+        "rid": "d",
+        "start_s": 400.0,
+        "end_s": 490.0,
+        "mode": "sender"
+      }
+    ],
+    "bw_caps_mbps": {
+      "default": 0.3
+    }
+  },
+  "stats": {
+    "seed": 1234,
+    "random_loss_p": 0.0,
+    "burst_period_s": 100.0,
+    "burst_duration_s": 12.0,
+    "bw_caps_mbps": {
+      "default": 0.3
+    },
+    "drops": {
+      "random": 0,
+      "burst": 0,
+      "blackout": 0
+    },
+    "throttle_seconds": {
+      "a": 0.014373333333333333
+    },
+    "staleness_wall_s": {
+      "a": {
+        "count": 1508,
+        "sum": 0.9601762603505453,
+        "max": 0.015182287572224935,
+        "mean": 0.0006367216580573907
+      }
+    },
+    "topics": {
+      "/cosmo/iface/run_15694c62/e": {
+        "attempts": 512,
+        "drops": 0,
+        "delivered": 512,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/iface/run_15694c62/b": {
+        "attempts": 312,
+        "drops": 0,
+        "delivered": 312,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/iface/run_15694c62/c": {
+        "attempts": 576,
+        "drops": 0,
+        "delivered": 576,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/iface/run_15694c62/d": {
+        "attempts": 108,
+        "drops": 0,
+        "delivered": 108,
+        "delivery_rate": 1.0
+      }
+    }
+  }
+}

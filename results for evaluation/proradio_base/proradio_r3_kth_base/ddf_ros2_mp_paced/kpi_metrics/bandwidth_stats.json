@@ -1,0 +1,29 @@
+{
+  "uplink": {
+    "iface/c-b": {
+      "messages": 70,
+      "bytes": 58439
+    },
+    "iface/a-c": {
+      "messages": 231,
+      "bytes": 124711
+    },
+    "iface/b-c": {
+      "messages": 309,
+      "bytes": 166790
+    },
+    "iface/c-a": {
+      "messages": 78,
+      "bytes": 65790
+    },
+    "iface/b-a": {
+      "messages": 160,
+      "bytes": 86376
+    },
+    "iface/a-b": {
+      "messages": 670,
+      "bytes": 361796
+    }
+  },
+  "downlink": {}
+}

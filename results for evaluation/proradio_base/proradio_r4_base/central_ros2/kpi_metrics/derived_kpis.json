@@ -1,0 +1,79 @@
+{
+  "loop_closure_correction": {
+    "count": 369,
+    "min": 0.06316479199449532,
+    "max": 7.9349050449964125,
+    "mean": 2.0846933199824362,
+    "median": 1.8342148090014234,
+    "p90": 4.022057478193892,
+    "p95": 4.77075000560144,
+    "p99": 6.393768164098718,
+    "stdev": 1.426975235748613
+  },
+  "interface_correction": {
+    "count": 4,
+    "min": 1.7466108220105525,
+    "max": 10.259585260995664,
+    "mean": 5.480002274256549,
+    "median": 4.95690650700999,
+    "p90": 9.454623446898768,
+    "p95": 9.857104353947214,
+    "p99": 10.179089079585973,
+    "stdev": 3.572574637136575
+  },
+  "loop_closure_correction_stabilised": {
+    "count": 0
+  },
+  "loop_closure_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "interface_correction_stabilised": {
+    "count": 0
+  },
+  "interface_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "time_to_global_convergence_s": 122.62907385826111,
+  "time_to_global_convergence_method": "last_map_broadcast",
+  "timeline_start_ts": 1762707389.964783,
+  "timeline_end_ts": 1762707512.5938568,
+  "delivery_topics": {
+    "/cosmo/factor_batch/a": {
+      "attempts": 2278.0,
+      "drops": 0.0,
+      "delivered": 2278.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/factor_batch/c": {
+      "attempts": 1798.0,
+      "drops": 0.0,
+      "delivered": 1798.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/factor_batch/b": {
+      "attempts": 885.0,
+      "drops": 0.0,
+      "delivered": 885.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/factor_batch/d": {
+      "attempts": 865.0,
+      "drops": 0.0,
+      "delivered": 865.0,
+      "delivery_rate": 1.0
+    }
+  },
+  "delivery_rate": {
+    "count": 4,
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "median": 1.0,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "stdev": 0.0
+  }
+}

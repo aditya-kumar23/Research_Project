@@ -1,0 +1,85 @@
+{
+  "uplink": {
+    "iface/e-b": {
+      "messages": 6,
+      "bytes": 3241
+    },
+    "iface/e-d": {
+      "messages": 6,
+      "bytes": 3241
+    },
+    "iface/e-a": {
+      "messages": 14,
+      "bytes": 7554
+    },
+    "iface/e-c": {
+      "messages": 4,
+      "bytes": 2168
+    },
+    "iface/b-d": {
+      "messages": 192,
+      "bytes": 103444
+    },
+    "iface/b-e": {
+      "messages": 56,
+      "bytes": 30210
+    },
+    "iface/b-c": {
+      "messages": 332,
+      "bytes": 179027
+    },
+    "iface/c-b": {
+      "messages": 135,
+      "bytes": 127740
+    },
+    "iface/c-d": {
+      "messages": 147,
+      "bytes": 140277
+    },
+    "iface/c-e": {
+      "messages": 63,
+      "bytes": 59142
+    },
+    "iface/d-b": {
+      "messages": 10,
+      "bytes": 5416
+    },
+    "iface/d-c": {
+      "messages": 16,
+      "bytes": 8651
+    },
+    "iface/b-a": {
+      "messages": 42,
+      "bytes": 22705
+    },
+    "iface/d-a": {
+      "messages": 12,
+      "bytes": 6480
+    },
+    "iface/d-e": {
+      "messages": 6,
+      "bytes": 3248
+    },
+    "iface/a-e": {
+      "messages": 512,
+      "bytes": 507079
+    },
+    "iface/a-b": {
+      "messages": 312,
+      "bytes": 311141
+    },
+    "iface/c-a": {
+      "messages": 12,
+      "bytes": 11335
+    },
+    "iface/a-c": {
+      "messages": 576,
+      "bytes": 572819
+    },
+    "iface/a-d": {
+      "messages": 108,
+      "bytes": 107857
+    }
+  },
+  "downlink": {}
+}

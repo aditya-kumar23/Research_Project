@@ -1,0 +1,45 @@
+{
+  "uplink": {
+    "iface/b-a": {
+      "messages": 36,
+      "bytes": 35624
+    },
+    "iface/b-c": {
+      "messages": 56,
+      "bytes": 54992
+    },
+    "iface/d-a": {
+      "messages": 6,
+      "bytes": 3237
+    },
+    "iface/d-c": {
+      "messages": 14,
+      "bytes": 7542
+    },
+    "iface/c-a": {
+      "messages": 60,
+      "bytes": 56665
+    },
+    "iface/c-b": {
+      "messages": 18,
+      "bytes": 16910
+    },
+    "iface/a-c": {
+      "messages": 680,
+      "bytes": 687621
+    },
+    "iface/c-d": {
+      "messages": 219,
+      "bytes": 207728
+    },
+    "iface/a-d": {
+      "messages": 188,
+      "bytes": 190680
+    },
+    "iface/a-b": {
+      "messages": 232,
+      "bytes": 233619
+    }
+  },
+  "downlink": {}
+}

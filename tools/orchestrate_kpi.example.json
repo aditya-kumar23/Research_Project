@@ -1,0 +1,60 @@
+{
+  "global": {
+    "jrl": "/home/gabruuu/cosmo_slam/datasets/COSMO/wifi/ntu_r3_01_n04_n08_n13_wifi.jrl",                 
+    "out_base": "Test_run",            
+    "eval_gt": true,                                
+    "ros2_domain_id": 23,                           
+    "skip_centralised": false,                      
+    "skip_decentralised": false,                    
+    "dry_run": false,
+    "replicas": 1,
+    "seed_base": 1234,
+    "use_sim_time": true,
+    "resource_interval": 0.1                                
+  },
+
+
+  "qos": {
+    "reliability": "reliable",                     
+    "durability": "volatile",                      
+    "depth": 10                                     
+  },
+
+  
+  "solver": {
+    "relin_th": 0.05,                               
+    "relin_skip": 8,                                
+    "robust": "cauchy",                            
+    "robust_k": 1.0,                                
+      "quat_order": "wxyz"                          
+    },
+
+  
+  "centralised": {
+    "factor_topic": "/cosmo/factor_batch",         
+    "publisher_batch_size": 1,                     
+    "publisher_time_scale": 5e9,           
+    "publisher_max_sleep": 0.3,                     
+    "publisher_idle_gap": 2.0,                      
+    "publisher_wait_timeout": 60.0,                 
+    "skip": false                                   
+  },
+
+  
+  "decentralised": {
+    "iface_topic_prefix": "/cosmo/iface",          
+    "ddf_ingest_time_scale": 5e9,          
+    "ddf_ingest_max_sleep": 0.05,                    
+    "ddf_interface_time_scale": 1e9,       
+    "ddf_interface_max_sleep": 0.05,                 
+    "ddf_rounds": 140,
+    "ddf_local_iters": 100,
+    "ddf_relaxation": 0.5,
+    "agent_factor_ros2": true,
+    "ddf-agent-solve-every-n": 100,
+    "skip": false                                   
+  },
+
+  "impair": false
+  
+}

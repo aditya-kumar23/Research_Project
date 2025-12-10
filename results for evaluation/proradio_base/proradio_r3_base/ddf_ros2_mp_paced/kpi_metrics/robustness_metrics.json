@@ -1,0 +1,38 @@
+{
+  "spec": {},
+  "stats": {
+    "seed": 42,
+    "random_loss_p": 0.0,
+    "burst_period_s": 0.0,
+    "burst_duration_s": 0.0,
+    "bw_caps_mbps": {},
+    "drops": {
+      "random": 0,
+      "burst": 0,
+      "blackout": 0
+    },
+    "throttle_seconds": {},
+    "staleness_wall_s": {
+      "a": {
+        "count": 1425,
+        "sum": 0.7983403205871582,
+        "max": 0.0013608932495117188,
+        "mean": 0.0005602388214646724
+      }
+    },
+    "topics": {
+      "/cosmo/iface/run_60e6a904/c": {
+        "attempts": 1083,
+        "drops": 0,
+        "delivered": 1083,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/iface/run_60e6a904/b": {
+        "attempts": 342,
+        "drops": 0,
+        "delivered": 342,
+        "delivery_rate": 1.0
+      }
+    }
+  }
+}

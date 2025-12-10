@@ -1,0 +1,65 @@
+{
+  "loop_closure_correction": {
+    "count": 0
+  },
+  "interface_correction": {
+    "count": 540,
+    "min": 0.0008060932159423828,
+    "max": 1.3173964023590088,
+    "mean": 0.37089431285858154,
+    "median": 0.04456686973571777,
+    "p90": 1.2442541122436523,
+    "p95": 1.3173964023590088,
+    "p99": 1.3173964023590088,
+    "stdev": 0.517246514935586
+  },
+  "loop_closure_correction_stabilised": {
+    "count": 0
+  },
+  "loop_closure_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "interface_correction_stabilised": {
+    "count": 0
+  },
+  "interface_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "time_to_global_convergence_s": 177.91514611244202,
+  "time_to_global_convergence_method": "last_map_broadcast",
+  "timeline_start_ts": 1762703272.1024942,
+  "timeline_end_ts": 1762703450.0176404,
+  "delivery_topics": {
+    "/cosmo/iface/run_d1147090/c": {
+      "attempts": 680.0,
+      "drops": 0.0,
+      "delivered": 680.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/iface/run_d1147090/d": {
+      "attempts": 188.0,
+      "drops": 0.0,
+      "delivered": 188.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/iface/run_d1147090/b": {
+      "attempts": 232.0,
+      "drops": 0.0,
+      "delivered": 232.0,
+      "delivery_rate": 1.0
+    }
+  },
+  "delivery_rate": {
+    "count": 3,
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "median": 1.0,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "stdev": 0.0
+  }
+}

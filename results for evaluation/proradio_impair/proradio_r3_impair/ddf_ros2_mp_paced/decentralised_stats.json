@@ -1,0 +1,26 @@
+{
+  "iterations": 3,
+  "converged": true,
+  "agents": {
+    "a": {
+      "poses": 1150,
+      "iterations": 2,
+      "converged": true,
+      "pid": 374916
+    },
+    "b": {
+      "poses": 610,
+      "iterations": 3,
+      "converged": true,
+      "pid": 374917
+    },
+    "c": {
+      "poses": 1011,
+      "iterations": 1,
+      "converged": true,
+      "pid": 374944
+    }
+  },
+  "messages_delivered": 1647,
+  "kpi_event_count": 6747
+}

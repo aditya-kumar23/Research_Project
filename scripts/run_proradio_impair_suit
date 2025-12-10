@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Batch runner for Pro Radio impair KPI orchestrations using ROS 2 factor streaming.
+# Mirrors the current orchestrator defaults via the example JSON config while
+# overriding dataset/output per case and enabling per-agent factor ingest.
+
+REPO_ROOT="/home/gabruuu/cosmo_slam"
+ORCHESTRATOR="$REPO_ROOT/tools/orchestrate_kpi.py"
+CONFIG="$REPO_ROOT/tools/orchestrate_kpi.example.json"
+
+run_case() {
+  local dataset_path="$1"
+  local output_dir="$2"
+
+  echo "=== Running Pro Radio impair ==="
+  echo "Dataset : $dataset_path"
+  echo "Output  : $output_dir"
+  python3 "$ORCHESTRATOR" \
+    --config "$CONFIG" \
+    --ddf-agent-factor-ros2 \
+    --jrl "$dataset_path" \
+    --out-base "$output_dir"
+}
+
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r3_00_d01_n04_n08_proradio.jrl" "$REPO_ROOT/proradio_impair/proradio_r3_impair"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r4_00_d01_n04_n08_n13_proradio.jrl" "$REPO_ROOT/proradio_impair/proradio_r4_impair"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r5_00_d01_d02_n04_n08_n13_proradio.jrl" "$REPO_ROOT/proradio_impair/proradio_r5_impair"
+
+echo "All Pro Radio impair runs completed."

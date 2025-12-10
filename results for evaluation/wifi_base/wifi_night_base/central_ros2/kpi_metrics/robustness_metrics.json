@@ -1,0 +1,56 @@
+{
+  "spec": {},
+  "stats": {
+    "seed": 42,
+    "random_loss_p": 0.0,
+    "burst_period_s": 0.0,
+    "burst_duration_s": 0.0,
+    "bw_caps_mbps": {},
+    "drops": {
+      "random": 0,
+      "burst": 0,
+      "blackout": 0
+    },
+    "throttle_seconds": {},
+    "staleness_wall_s": {
+      "a": {
+        "count": 476,
+        "sum": 0.007134914398193359,
+        "max": 0.0006284713745117188,
+        "mean": 1.498931596259109e-05
+      },
+      "b": {
+        "count": 844,
+        "sum": 0.011115074157714844,
+        "max": 0.0001494884490966797,
+        "mean": 1.31695191442119e-05
+      },
+      "c": {
+        "count": 266,
+        "sum": 0.0035986900329589844,
+        "max": 3.743171691894531e-05,
+        "mean": 1.3528909898342046e-05
+      }
+    },
+    "topics": {
+      "/cosmo/factor_batch/a": {
+        "attempts": 476,
+        "drops": 0,
+        "delivered": 476,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/factor_batch/b": {
+        "attempts": 844,
+        "drops": 0,
+        "delivered": 844,
+        "delivery_rate": 1.0
+      },
+      "/cosmo/factor_batch/c": {
+        "attempts": 266,
+        "drops": 0,
+        "delivered": 266,
+        "delivery_rate": 1.0
+      }
+    }
+  }
+}

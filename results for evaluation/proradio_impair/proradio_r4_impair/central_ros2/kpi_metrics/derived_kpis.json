@@ -1,0 +1,79 @@
+{
+  "loop_closure_correction": {
+    "count": 352,
+    "min": 0.058026510989293456,
+    "max": 16.960357848991407,
+    "mean": 2.182374342228947,
+    "median": 1.9262716240045847,
+    "p90": 4.021235233097107,
+    "p95": 4.769892167838406,
+    "p99": 7.965011247039657,
+    "stdev": 1.8149799194688776
+  },
+  "interface_correction": {
+    "count": 4,
+    "min": 1.7965319500071928,
+    "max": 10.381233745021746,
+    "mean": 5.547481550252996,
+    "median": 5.006080252991524,
+    "p90": 9.55931134391576,
+    "p95": 9.970272544468752,
+    "p99": 10.299041504911147,
+    "stdev": 3.6024924832302023
+  },
+  "loop_closure_correction_stabilised": {
+    "count": 0
+  },
+  "loop_closure_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "interface_correction_stabilised": {
+    "count": 0
+  },
+  "interface_correction_stabilised_params": {
+    "epsilon": 0.001,
+    "required": 5
+  },
+  "time_to_global_convergence_s": 128.62577033042908,
+  "time_to_global_convergence_method": "last_map_broadcast",
+  "timeline_start_ts": 1762960020.4914215,
+  "timeline_end_ts": 1762960149.1171918,
+  "delivery_topics": {
+    "/cosmo/factor_batch/a": {
+      "attempts": 2278.0,
+      "drops": 310.0,
+      "delivered": 1968.0,
+      "delivery_rate": 0.8639157155399473
+    },
+    "/cosmo/factor_batch/c": {
+      "attempts": 1798.0,
+      "drops": 231.0,
+      "delivered": 1567.0,
+      "delivery_rate": 0.871523915461624
+    },
+    "/cosmo/factor_batch/b": {
+      "attempts": 885.0,
+      "drops": 0.0,
+      "delivered": 885.0,
+      "delivery_rate": 1.0
+    },
+    "/cosmo/factor_batch/d": {
+      "attempts": 865.0,
+      "drops": 4.0,
+      "delivered": 861.0,
+      "delivery_rate": 0.9953757225433526
+    }
+  },
+  "delivery_rate": {
+    "count": 4,
+    "min": 0.8639157155399473,
+    "max": 1.0,
+    "mean": 0.9327038383862309,
+    "median": 0.9334498190024882,
+    "p90": 0.9986127167630058,
+    "p95": 0.999306358381503,
+    "p99": 0.9998612716763006,
+    "stdev": 0.06506021681013378
+  }
+}

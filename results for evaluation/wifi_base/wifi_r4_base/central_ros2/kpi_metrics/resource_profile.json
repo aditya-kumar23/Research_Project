@@ -1,0 +1,2083 @@
+{
+  "metadata": {
+    "jrl": "/home/gabruuu/cosmo_slam/datasets/COSMO/wifi/ntu_r4_00_d01_n04_n08_n13_wifi.jrl",
+    "solver": "isam2",
+    "batch_size": 200,
+    "relinearize_skip": 3,
+    "agent_count": 3555,
+    "central_transport": "ros2",
+    "central_ros2_topic_prefix": "/cosmo/factor_batch",
+    "central_ros2_reliability": "reliable",
+    "central_ros2_durability": "volatile",
+    "central_ros2_depth": 20,
+    "transport": "ros2",
+    "ros_domain_id": 23,
+    "robots": 4
+  },
+  "summary": {
+    "num_samples": 254,
+    "cpu_process_pct": {
+      "min": 0.0,
+      "max": 100.7,
+      "mean": 11.242125984251969,
+      "median": 8.0,
+      "stdev": 12.368546476319837,
+      "p50": 8.0,
+      "p90": 18.0,
+      "p95": 22.0,
+      "p99": 98.59299999999999
+    },
+    "cpu_system_pct": {
+      "min": 1.3,
+      "max": 65.2,
+      "mean": 18.51259842519685,
+      "median": 18.25,
+      "stdev": 11.659023690072287,
+      "p50": 18.25,
+      "p90": 32.8,
+      "p95": 41.50999999999999,
+      "p99": 47.757999999999996
+    },
+    "rss_bytes": {
+      "min": 126222336.0,
+      "max": 243167232.0,
+      "mean": 166168269.60629922,
+      "median": 169803776.0,
+      "stdev": 25749686.10713309
+    }
+  },
+  "samples": [
+    {
+      "ts": 1762703140.5258212,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 126222336.0,
+      "vms_bytes": 533286912.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703141.0268178,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 126222336.0,
+      "vms_bytes": 533286912.0,
+      "cpu_system_pct": 1.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703141.5276356,
+      "cpu_process_pct": 0.0,
+      "rss_bytes": 126222336.0,
+      "vms_bytes": 533286912.0,
+      "cpu_system_pct": 14.3,
+      "ram_percent": 79.6
+    },
+    {
+      "ts": 1762703142.0285716,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869437440.0,
+      "cpu_system_pct": 9.1,
+      "ram_percent": 79.5
+    },
+    {
+      "ts": 1762703142.529596,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.5
+    },
+    {
+      "ts": 1762703143.0307014,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.4
+    },
+    {
+      "ts": 1762703143.5314898,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.3,
+      "ram_percent": 79.4
+    },
+    {
+      "ts": 1762703144.032662,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.4
+    },
+    {
+      "ts": 1762703144.5336137,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703145.0347238,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 127664128.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703145.5358176,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127795200.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 4.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703146.0369315,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127795200.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.0,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703146.537695,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 127795200.0,
+      "vms_bytes": 869572608.0,
+      "cpu_system_pct": 2.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703147.0386531,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127795200.0,
+      "vms_bytes": 869707776.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703147.5397036,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 127795200.0,
+      "vms_bytes": 869707776.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703148.0406024,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 127926272.0,
+      "vms_bytes": 869707776.0,
+      "cpu_system_pct": 4.1,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703148.5415673,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 128057344.0,
+      "vms_bytes": 869707776.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703149.042316,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 128057344.0,
+      "vms_bytes": 869707776.0,
+      "cpu_system_pct": 3.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703149.5434217,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 128188416.0,
+      "vms_bytes": 869842944.0,
+      "cpu_system_pct": 2.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703150.0443335,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 128188416.0,
+      "vms_bytes": 869842944.0,
+      "cpu_system_pct": 3.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703150.5450695,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 128188416.0,
+      "vms_bytes": 869842944.0,
+      "cpu_system_pct": 3.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703151.045747,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 128188416.0,
+      "vms_bytes": 869842944.0,
+      "cpu_system_pct": 16.9,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703151.546642,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 128319488.0,
+      "vms_bytes": 869978112.0,
+      "cpu_system_pct": 3.0,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703152.0477986,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 131334144.0,
+      "vms_bytes": 872386560.0,
+      "cpu_system_pct": 7.6,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703152.5487278,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872386560.0,
+      "cpu_system_pct": 3.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703153.052901,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872386560.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703153.5539112,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872386560.0,
+      "cpu_system_pct": 2.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703154.0550203,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872386560.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703154.556002,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872521728.0,
+      "cpu_system_pct": 4.0,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703155.0570183,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 131465216.0,
+      "vms_bytes": 872521728.0,
+      "cpu_system_pct": 4.4,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703155.5581446,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 131596288.0,
+      "vms_bytes": 872521728.0,
+      "cpu_system_pct": 4.0,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703156.0589514,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 131727360.0,
+      "vms_bytes": 872656896.0,
+      "cpu_system_pct": 5.3,
+      "ram_percent": 79.3
+    },
+    {
+      "ts": 1762703156.5598679,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 131858432.0,
+      "vms_bytes": 872656896.0,
+      "cpu_system_pct": 4.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703157.0605733,
+      "cpu_process_pct": 18.0,
+      "rss_bytes": 133431296.0,
+      "vms_bytes": 874147840.0,
+      "cpu_system_pct": 7.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703157.5614758,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 133431296.0,
+      "vms_bytes": 874147840.0,
+      "cpu_system_pct": 5.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703158.0624342,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 133431296.0,
+      "vms_bytes": 874147840.0,
+      "cpu_system_pct": 7.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703158.5632915,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 133431296.0,
+      "vms_bytes": 874147840.0,
+      "cpu_system_pct": 3.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703159.0644495,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 133562368.0,
+      "vms_bytes": 874295296.0,
+      "cpu_system_pct": 7.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703159.5656343,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 133562368.0,
+      "vms_bytes": 874295296.0,
+      "cpu_system_pct": 4.3,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703160.0667195,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 133693440.0,
+      "vms_bytes": 874295296.0,
+      "cpu_system_pct": 5.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703160.567675,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 133693440.0,
+      "vms_bytes": 874295296.0,
+      "cpu_system_pct": 4.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703161.0686734,
+      "cpu_process_pct": 18.0,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 5.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703161.5712643,
+      "cpu_process_pct": 11.9,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 4.3,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703162.0719688,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 6.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703162.5726378,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 5.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703163.0733285,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 7.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703163.5754862,
+      "cpu_process_pct": 13.9,
+      "rss_bytes": 135790592.0,
+      "vms_bytes": 876199936.0,
+      "cpu_system_pct": 6.3,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703164.0772116,
+      "cpu_process_pct": 21.9,
+      "rss_bytes": 137363456.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 7.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703164.5779734,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 137494528.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 6.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703165.0791826,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 137494528.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 4.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703165.5801766,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 137625600.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 6.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703166.08135,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 137625600.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 4.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703166.5824916,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 137625600.0,
+      "vms_bytes": 877690880.0,
+      "cpu_system_pct": 6.0,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703167.0835388,
+      "cpu_process_pct": 22.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 6.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703167.5846753,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 4.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703168.0857291,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 17.4,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703168.586708,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.2
+    },
+    {
+      "ts": 1762703169.0879145,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 6.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703169.5888345,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 139460608.0,
+      "vms_bytes": 880500736.0,
+      "cpu_system_pct": 6.4,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703170.1015882,
+      "cpu_process_pct": 17.6,
+      "rss_bytes": 142475264.0,
+      "vms_bytes": 883527680.0,
+      "cpu_system_pct": 7.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703170.6390982,
+      "cpu_process_pct": 16.7,
+      "rss_bytes": 142737408.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 5.0,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703171.1402261,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 142737408.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 6.0,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703171.641376,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 142868480.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 4.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703172.1422415,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 142868480.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 6.0,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703172.642942,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 142868480.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 5.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703173.143951,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 142868480.0,
+      "vms_bytes": 883683328.0,
+      "cpu_system_pct": 6.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703173.64493,
+      "cpu_process_pct": 22.0,
+      "rss_bytes": 144441344.0,
+      "vms_bytes": 885030912.0,
+      "cpu_system_pct": 7.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703174.1457024,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 144441344.0,
+      "vms_bytes": 885030912.0,
+      "cpu_system_pct": 5.7,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703174.6464717,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 144441344.0,
+      "vms_bytes": 885030912.0,
+      "cpu_system_pct": 5.4,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703175.1472552,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 144441344.0,
+      "vms_bytes": 885030912.0,
+      "cpu_system_pct": 15.1,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703175.6483693,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 144441344.0,
+      "vms_bytes": 885030912.0,
+      "cpu_system_pct": 21.1,
+      "ram_percent": 79.1
+    },
+    {
+      "ts": 1762703176.149082,
+      "cpu_process_pct": 20.0,
+      "rss_bytes": 147062784.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 26.3,
+      "ram_percent": 79.0
+    },
+    {
+      "ts": 1762703176.6498532,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 147193856.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 17.9,
+      "ram_percent": 79.0
+    },
+    {
+      "ts": 1762703177.1505709,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 147193856.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 17.6,
+      "ram_percent": 79.0
+    },
+    {
+      "ts": 1762703177.6512644,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 147193856.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 65.2,
+      "ram_percent": 79.8
+    },
+    {
+      "ts": 1762703178.1518455,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 147324928.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 39.3,
+      "ram_percent": 80.0
+    },
+    {
+      "ts": 1762703178.652443,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 147324928.0,
+      "vms_bytes": 887570432.0,
+      "cpu_system_pct": 26.2,
+      "ram_percent": 80.0
+    },
+    {
+      "ts": 1762703179.1555686,
+      "cpu_process_pct": 23.9,
+      "rss_bytes": 150470656.0,
+      "vms_bytes": 890634240.0,
+      "cpu_system_pct": 35.1,
+      "ram_percent": 80.0
+    },
+    {
+      "ts": 1762703179.656297,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 150470656.0,
+      "vms_bytes": 890634240.0,
+      "cpu_system_pct": 25.1,
+      "ram_percent": 79.7
+    },
+    {
+      "ts": 1762703180.1570246,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 150470656.0,
+      "vms_bytes": 890634240.0,
+      "cpu_system_pct": 19.2,
+      "ram_percent": 79.6
+    },
+    {
+      "ts": 1762703180.6575627,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 150601728.0,
+      "vms_bytes": 891912192.0,
+      "cpu_system_pct": 25.4,
+      "ram_percent": 79.9
+    },
+    {
+      "ts": 1762703181.1581328,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 150601728.0,
+      "vms_bytes": 891912192.0,
+      "cpu_system_pct": 58.3,
+      "ram_percent": 80.6
+    },
+    {
+      "ts": 1762703181.6609743,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 150732800.0,
+      "vms_bytes": 891912192.0,
+      "cpu_system_pct": 45.7,
+      "ram_percent": 81.0
+    },
+    {
+      "ts": 1762703182.163665,
+      "cpu_process_pct": 9.9,
+      "rss_bytes": 150732800.0,
+      "vms_bytes": 891912192.0,
+      "cpu_system_pct": 41.3,
+      "ram_percent": 81.3
+    },
+    {
+      "ts": 1762703182.6677184,
+      "cpu_process_pct": 19.8,
+      "rss_bytes": 151781376.0,
+      "vms_bytes": 892821504.0,
+      "cpu_system_pct": 45.7,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703183.1681614,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 151781376.0,
+      "vms_bytes": 892821504.0,
+      "cpu_system_pct": 41.9,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703183.66893,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 151781376.0,
+      "vms_bytes": 892821504.0,
+      "cpu_system_pct": 19.0,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703184.1696794,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 151912448.0,
+      "vms_bytes": 892821504.0,
+      "cpu_system_pct": 19.8,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703184.6706169,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 151912448.0,
+      "vms_bytes": 892821504.0,
+      "cpu_system_pct": 22.2,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703185.1716394,
+      "cpu_process_pct": 22.0,
+      "rss_bytes": 153485312.0,
+      "vms_bytes": 894279680.0,
+      "cpu_system_pct": 38.5,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703185.6730576,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 153485312.0,
+      "vms_bytes": 894279680.0,
+      "cpu_system_pct": 38.1,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703186.1737838,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 153616384.0,
+      "vms_bytes": 894279680.0,
+      "cpu_system_pct": 40.4,
+      "ram_percent": 82.3
+    },
+    {
+      "ts": 1762703186.6745305,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 153747456.0,
+      "vms_bytes": 894279680.0,
+      "cpu_system_pct": 45.2,
+      "ram_percent": 82.7
+    },
+    {
+      "ts": 1762703187.1751583,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 153747456.0,
+      "vms_bytes": 894279680.0,
+      "cpu_system_pct": 23.5,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703187.6759772,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 158072832.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 16.9,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703188.2055602,
+      "cpu_process_pct": 18.9,
+      "rss_bytes": 158072832.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 20.0,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703188.7064009,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 158072832.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 18.4,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703189.2071252,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 158072832.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 18.3,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703189.7075806,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 158203904.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 18.6,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703190.2083075,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 158203904.0,
+      "vms_bytes": 898629632.0,
+      "cpu_system_pct": 17.0,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703190.7090447,
+      "cpu_process_pct": 22.0,
+      "rss_bytes": 158597120.0,
+      "vms_bytes": 898908160.0,
+      "cpu_system_pct": 28.2,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703191.2100255,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 158728192.0,
+      "vms_bytes": 898908160.0,
+      "cpu_system_pct": 23.3,
+      "ram_percent": 82.8
+    },
+    {
+      "ts": 1762703191.710931,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 158728192.0,
+      "vms_bytes": 898908160.0,
+      "cpu_system_pct": 21.4,
+      "ram_percent": 82.7
+    },
+    {
+      "ts": 1762703192.2116785,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 158859264.0,
+      "vms_bytes": 898908160.0,
+      "cpu_system_pct": 18.7,
+      "ram_percent": 82.7
+    },
+    {
+      "ts": 1762703192.7121198,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 158859264.0,
+      "vms_bytes": 898908160.0,
+      "cpu_system_pct": 16.4,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703193.2129753,
+      "cpu_process_pct": 24.0,
+      "rss_bytes": 160563200.0,
+      "vms_bytes": 901701632.0,
+      "cpu_system_pct": 21.1,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703193.713727,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 160563200.0,
+      "vms_bytes": 901701632.0,
+      "cpu_system_pct": 25.3,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703194.214619,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 160694272.0,
+      "vms_bytes": 901701632.0,
+      "cpu_system_pct": 24.3,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703194.7170322,
+      "cpu_process_pct": 13.9,
+      "rss_bytes": 160694272.0,
+      "vms_bytes": 901701632.0,
+      "cpu_system_pct": 28.1,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703195.2177474,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 160825344.0,
+      "vms_bytes": 901701632.0,
+      "cpu_system_pct": 24.7,
+      "ram_percent": 82.4
+    },
+    {
+      "ts": 1762703195.7184587,
+      "cpu_process_pct": 22.0,
+      "rss_bytes": 165806080.0,
+      "vms_bytes": 906604544.0,
+      "cpu_system_pct": 21.4,
+      "ram_percent": 82.3
+    },
+    {
+      "ts": 1762703196.219165,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 165806080.0,
+      "vms_bytes": 906604544.0,
+      "cpu_system_pct": 27.3,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703196.7198586,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 165806080.0,
+      "vms_bytes": 906604544.0,
+      "cpu_system_pct": 31.6,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703197.221166,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 165806080.0,
+      "vms_bytes": 906604544.0,
+      "cpu_system_pct": 29.3,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703197.7224202,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 165937152.0,
+      "vms_bytes": 906604544.0,
+      "cpu_system_pct": 23.7,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703198.2231047,
+      "cpu_process_pct": 20.0,
+      "rss_bytes": 166461440.0,
+      "vms_bytes": 907104256.0,
+      "cpu_system_pct": 19.9,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703198.723788,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 166461440.0,
+      "vms_bytes": 907104256.0,
+      "cpu_system_pct": 23.3,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703199.2245722,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 166461440.0,
+      "vms_bytes": 907104256.0,
+      "cpu_system_pct": 28.2,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703199.7253852,
+      "cpu_process_pct": 14.0,
+      "rss_bytes": 166461440.0,
+      "vms_bytes": 907104256.0,
+      "cpu_system_pct": 27.0,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703200.2260544,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 166592512.0,
+      "vms_bytes": 907104256.0,
+      "cpu_system_pct": 24.0,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703200.728949,
+      "cpu_process_pct": 23.9,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 22.5,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703201.2296455,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 17.4,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703201.7303488,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 28.7,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703202.2307968,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 25.8,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703202.731508,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 15.1,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703203.2322402,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 18.9,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703203.7329671,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 167116800.0,
+      "vms_bytes": 907530240.0,
+      "cpu_system_pct": 14.7,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703204.2336533,
+      "cpu_process_pct": 18.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 19.9,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703204.7343829,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 18.3,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703205.2350636,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 16.6,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703205.7362926,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 24.7,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703206.2374237,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 16.0,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703206.738171,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 15.5,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703207.238973,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 13.5,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703207.7396054,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 13.4,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703208.2403293,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 17.1,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703208.7410717,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 17.8,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703209.2415001,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 15.5,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703209.7424183,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 16.9,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703210.2431805,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 912809984.0,
+      "cpu_system_pct": 13.0,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703210.7447288,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 913858560.0,
+      "cpu_system_pct": 24.7,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703211.2454154,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 172490752.0,
+      "vms_bytes": 913858560.0,
+      "cpu_system_pct": 18.1,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703211.7460663,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 16.4,
+      "ram_percent": 82.1
+    },
+    {
+      "ts": 1762703212.246733,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 18.3,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703212.7473342,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 15.4,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703213.24793,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 18.2,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703213.7486498,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 23.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703214.2502744,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 18.9,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703214.7510226,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 23.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703215.25175,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 13.4,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703215.752655,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 173932544.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 11.5,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703216.253393,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174063616.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 22.7,
+      "ram_percent": 81.3
+    },
+    {
+      "ts": 1762703216.7541397,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 174063616.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 14.1,
+      "ram_percent": 81.3
+    },
+    {
+      "ts": 1762703217.2548935,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174194688.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 13.7,
+      "ram_percent": 81.2
+    },
+    {
+      "ts": 1762703217.755553,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174194688.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 7.4,
+      "ram_percent": 81.2
+    },
+    {
+      "ts": 1762703218.2564409,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 174194688.0,
+      "vms_bytes": 915152896.0,
+      "cpu_system_pct": 11.5,
+      "ram_percent": 81.2
+    },
+    {
+      "ts": 1762703218.7572005,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 18.7,
+      "ram_percent": 81.2
+    },
+    {
+      "ts": 1762703219.258129,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 16.8,
+      "ram_percent": 81.3
+    },
+    {
+      "ts": 1762703219.7589688,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 12.8,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703220.2597196,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 12.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703220.760678,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 11.0,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703221.2613046,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 27.4,
+      "ram_percent": 81.6
+    },
+    {
+      "ts": 1762703221.7617729,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 22.8,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703222.2624862,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 174456832.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 21.5,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703222.7632363,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 174587904.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 11.0,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703223.2639928,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 174587904.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 8.7,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703223.764713,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 174587904.0,
+      "vms_bytes": 915357696.0,
+      "cpu_system_pct": 18.5,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703224.2654362,
+      "cpu_process_pct": 20.0,
+      "rss_bytes": 179306496.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 23.9,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703224.7661698,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 179306496.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 5.7,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703225.2668893,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 179306496.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 22.8,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703225.76757,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 179437568.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 21.7,
+      "ram_percent": 81.5
+    },
+    {
+      "ts": 1762703226.2680073,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 179437568.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 19.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703226.7685986,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 179437568.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 14.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703227.27042,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 179437568.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 23.1,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703227.770957,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 179437568.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 19.9,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703228.2717185,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 179568640.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 12.5,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703228.772503,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 179568640.0,
+      "vms_bytes": 919941120.0,
+      "cpu_system_pct": 14.3,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703229.278322,
+      "cpu_process_pct": 21.7,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 13.4,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703229.795874,
+      "cpu_process_pct": 7.7,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 7.7,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703230.2965536,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 14.2,
+      "ram_percent": 81.4
+    },
+    {
+      "ts": 1762703230.7971344,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 25.6,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703231.2977178,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 37.8,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703231.7994182,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 42.5,
+      "ram_percent": 81.9
+    },
+    {
+      "ts": 1762703232.2999353,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 18.1,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703232.800644,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 20.7,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703233.3013756,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 22.6,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703233.802116,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 182321152.0,
+      "vms_bytes": 922652672.0,
+      "cpu_system_pct": 19.5,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703234.3102093,
+      "cpu_process_pct": 19.7,
+      "rss_bytes": 185466880.0,
+      "vms_bytes": 925691904.0,
+      "cpu_system_pct": 16.2,
+      "ram_percent": 82.0
+    },
+    {
+      "ts": 1762703234.8109193,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 185466880.0,
+      "vms_bytes": 925691904.0,
+      "cpu_system_pct": 23.9,
+      "ram_percent": 81.9
+    },
+    {
+      "ts": 1762703235.311599,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 185466880.0,
+      "vms_bytes": 925691904.0,
+      "cpu_system_pct": 16.6,
+      "ram_percent": 81.9
+    },
+    {
+      "ts": 1762703235.812327,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 185466880.0,
+      "vms_bytes": 926740480.0,
+      "cpu_system_pct": 19.8,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703236.3130834,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 185466880.0,
+      "vms_bytes": 926740480.0,
+      "cpu_system_pct": 15.1,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703236.8138037,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 185597952.0,
+      "vms_bytes": 926740480.0,
+      "cpu_system_pct": 9.8,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703237.314558,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 185729024.0,
+      "vms_bytes": 926740480.0,
+      "cpu_system_pct": 13.7,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703237.8557136,
+      "cpu_process_pct": 24.0,
+      "rss_bytes": 188874752.0,
+      "vms_bytes": 929734656.0,
+      "cpu_system_pct": 15.8,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703238.3936038,
+      "cpu_process_pct": 13.0,
+      "rss_bytes": 188874752.0,
+      "vms_bytes": 929734656.0,
+      "cpu_system_pct": 12.6,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703238.8943222,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 188874752.0,
+      "vms_bytes": 929734656.0,
+      "cpu_system_pct": 20.6,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703239.3950555,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 188874752.0,
+      "vms_bytes": 929734656.0,
+      "cpu_system_pct": 15.7,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703239.8958297,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 189005824.0,
+      "vms_bytes": 929734656.0,
+      "cpu_system_pct": 18.1,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703240.3965898,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 189530112.0,
+      "vms_bytes": 930381824.0,
+      "cpu_system_pct": 18.2,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703240.8972704,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 189530112.0,
+      "vms_bytes": 930381824.0,
+      "cpu_system_pct": 18.1,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703241.3979812,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 189530112.0,
+      "vms_bytes": 930381824.0,
+      "cpu_system_pct": 20.0,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703241.8986964,
+      "cpu_process_pct": 18.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 24.1,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703242.3994157,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 13.6,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703242.9001327,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 10.4,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703243.4008331,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 15.8,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703243.9015074,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 27.0,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703244.4020886,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 31.6,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703244.902817,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 23.7,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703245.4035978,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 13.6,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703245.9043207,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 18.5,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703246.4050884,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 192282624.0,
+      "vms_bytes": 932937728.0,
+      "cpu_system_pct": 24.5,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703246.9058192,
+      "cpu_process_pct": 20.0,
+      "rss_bytes": 192806912.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 27.6,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703247.406719,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 20.9,
+      "ram_percent": 81.7
+    },
+    {
+      "ts": 1762703247.908488,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 44.0,
+      "ram_percent": 81.8
+    },
+    {
+      "ts": 1762703248.408938,
+      "cpu_process_pct": 12.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 32.8,
+      "ram_percent": 82.2
+    },
+    {
+      "ts": 1762703248.9096966,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 48.5,
+      "ram_percent": 82.3
+    },
+    {
+      "ts": 1762703249.4103305,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 44.9,
+      "ram_percent": 82.5
+    },
+    {
+      "ts": 1762703249.91103,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 192937984.0,
+      "vms_bytes": 933380096.0,
+      "cpu_system_pct": 47.1,
+      "ram_percent": 82.5
+    },
+    {
+      "ts": 1762703250.4114182,
+      "cpu_process_pct": 26.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 42.1,
+      "ram_percent": 83.1
+    },
+    {
+      "ts": 1762703250.9154406,
+      "cpu_process_pct": 7.9,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 39.3,
+      "ram_percent": 83.1
+    },
+    {
+      "ts": 1762703251.4160743,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 46.1,
+      "ram_percent": 83.1
+    },
+    {
+      "ts": 1762703251.9169824,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 32.8,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703252.417576,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 30.6,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703252.9183242,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 22.1,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703253.4190664,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 196476928.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 24.3,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703253.9197924,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 196608000.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 24.9,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703254.4202244,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 196608000.0,
+      "vms_bytes": 936960000.0,
+      "cpu_system_pct": 19.9,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703254.9209497,
+      "cpu_process_pct": 24.0,
+      "rss_bytes": 200015872.0,
+      "vms_bytes": 940367872.0,
+      "cpu_system_pct": 22.6,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703255.4216907,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 200015872.0,
+      "vms_bytes": 940367872.0,
+      "cpu_system_pct": 24.1,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703255.922384,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 200015872.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 26.3,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703256.4229808,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 200015872.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 25.9,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703256.923726,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 200146944.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 24.1,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703257.424359,
+      "cpu_process_pct": 10.0,
+      "rss_bytes": 200146944.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 25.3,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703257.9249253,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 200146944.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 22.6,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703258.4278133,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 200278016.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 23.7,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703258.928498,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 200278016.0,
+      "vms_bytes": 941416448.0,
+      "cpu_system_pct": 24.2,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703259.4290993,
+      "cpu_process_pct": 16.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 29.6,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703259.9297936,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 28.7,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703260.4304688,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 23.2,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703260.9312983,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 23.0,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703261.436246,
+      "cpu_process_pct": 5.9,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 28.8,
+      "ram_percent": 83.2
+    },
+    {
+      "ts": 1762703261.9369745,
+      "cpu_process_pct": 6.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 32.5,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703262.437705,
+      "cpu_process_pct": 8.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 27.6,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703262.9384258,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 203948032.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 24.9,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703263.4391286,
+      "cpu_process_pct": 4.0,
+      "rss_bytes": 204079104.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 23.6,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703263.939806,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 204079104.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 18.9,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703264.4403753,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 204079104.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 24.3,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703264.9409497,
+      "cpu_process_pct": 2.0,
+      "rss_bytes": 204079104.0,
+      "vms_bytes": 945029120.0,
+      "cpu_system_pct": 22.1,
+      "ram_percent": 83.3
+    },
+    {
+      "ts": 1762703265.4467485,
+      "cpu_process_pct": 31.6,
+      "rss_bytes": 219283456.0,
+      "vms_bytes": 959119360.0,
+      "cpu_system_pct": 26.4,
+      "ram_percent": 83.4
+    },
+    {
+      "ts": 1762703265.9686077,
+      "cpu_process_pct": 97.7,
+      "rss_bytes": 239685632.0,
+      "vms_bytes": 978944000.0,
+      "cpu_system_pct": 39.2,
+      "ram_percent": 83.5
+    },
+    {
+      "ts": 1762703266.4704738,
+      "cpu_process_pct": 99.6,
+      "rss_bytes": 243167232.0,
+      "vms_bytes": 982159360.0,
+      "cpu_system_pct": 40.7,
+      "ram_percent": 83.5
+    },
+    {
+      "ts": 1762703266.9721956,
+      "cpu_process_pct": 99.7,
+      "rss_bytes": 239534080.0,
+      "vms_bytes": 979144704.0,
+      "cpu_system_pct": 37.1,
+      "ram_percent": 83.5
+    },
+    {
+      "ts": 1762703267.4786892,
+      "cpu_process_pct": 100.7,
+      "rss_bytes": 242024448.0,
+      "vms_bytes": 981065728.0,
+      "cpu_system_pct": 39.3,
+      "ram_percent": 83.2
+    }
+  ]
+}

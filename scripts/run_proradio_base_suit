@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Batch runner for Pro Radio baseline KPI orchestrations using ROS 2 factor streaming.
+# Mirrors the current orchestrator defaults via the example JSON config while
+# overriding dataset/output per case and enabling per-agent factor ingest.
+
+REPO_ROOT="/home/gabruuu/cosmo_slam"
+ORCHESTRATOR="$REPO_ROOT/tools/orchestrate_kpi.py"
+CONFIG="$REPO_ROOT/tools/orchestrate_kpi.example.json"
+
+run_case() {
+  local dataset_path="$1"
+  local output_dir="$2"
+
+  echo "=== Running Pro Radio baseline ==="
+  echo "Dataset : $dataset_path"
+  echo "Output  : $output_dir"
+  python3 "$ORCHESTRATOR" \
+    --config "$CONFIG" \
+    --ddf-agent-factor-ros2 \
+    --jrl "$dataset_path" \
+    --out-base "$output_dir"
+}
+
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r3_00_d01_n04_n08_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_r3_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r4_00_d01_n04_n08_n13_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_r4_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/ntu_r5_00_d01_d02_n04_n08_n13_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_r5_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/tuhh_r3_00_day_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_day_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/tuhh_r3_01_night_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_night_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/kth_r3_01_n01_n04_n05_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_r3_kth_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/kth_r4_00_d06_d10_n04_n05_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_r4_kth_base"
+run_case "$REPO_ROOT/datasets/COSMO/proradio/main_campus_proradio.jrl" "$REPO_ROOT/proradio_base/proradio_maincampus_base"
+
+echo "All Pro Radio baseline runs completed."

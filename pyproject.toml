@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmo-slam"
+version = "0.0.1"
+description = "COSMO SLAM decentralised benchmarking toolkit"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["psutil","numpy","msgpack"]
+
+[tool.setuptools.packages.find]
+include = [
+    "cosmo_slam_common",
+    "cosmo_slam_common.*",
+    "cosmo_slam_centralised",
+    "cosmo_slam_centralised.*",
+    "cosmo_slam_decentralised",
+    "cosmo_slam_decentralised.*",
+    "cosmo_slam_ros2",
+    "cosmo_slam_ros2.*",
+]
